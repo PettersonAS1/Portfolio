@@ -1,0 +1,193 @@
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    background-color: var(--background);
+}
+
+.profile-parent {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.profile-details-name {
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+
+.primary-text {
+    color: var(--white);
+}
+
+.special-text {
+    color: var(--dark-orange);
+}
+
+.profile-info {
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+}
+
+.profile-options {
+    margin: 20px 0 0 0;
+}
+
+.profile-options .primary-btn {
+    border: none;
+    transition: 0.8s;
+    background-color: #22c8e5;
+}
+
+.profile-options .primary-btn:hover { 
+    background-color: cornsilk;
+    color: #111;
+    letter-spacing: 1px;
+}
+
+
+.profile-options .highlighted-btn {
+    margin: 0 0 0 28px;
+    transition: 0.8s;
+    text-decoration: none;
+    outline: none;
+    background: linear-gradient(90deg, #ff8f1e 0%, #ff8f1e 50%, #fe690b 100%);;
+}
+
+.profile-options .highlighted-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.profile-options .highlighted-btn:hover {
+    color: #111;
+    letter-spacing: 1px;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+
+.profile-picture-background {
+    height: 92%;
+    width: 92%;
+    background-image: url('../../assets/Home/profilephoto.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+}
+
+.profile-picture-background:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+.profile-networks .networks-icon i {
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+    transition: 0.5s;
+}
+
+.networks-icon
+
+.profile-networks .networks-icon i:hover {
+    transform: scale(1.4);
+}
+
+@media screen and (max-width: 1110px) {
+    .profile-picture {
+        margin: 0 0px 0 80px;
+    }
+
+    .profile-details-name {
+        font-size: 20px;
+    }
+
+    /* .primary-text {
+        font-size: 12px;
+    } */
+
+    .profile-options .btn {
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .profile-picture {
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .profile-picture {
+        margin: 0 !important;
+    }
+
+    .profile-parent {
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+
+    .profile-options {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .profile-details {
+        margin: 25px 0 0;
+    }
+
+    .profile-options .highlighted-btn {
+        margin: 0 !important;
+    }
+
+    .profile-options .profile-details-name {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .profile-details {
+        width: 90%;
+    }
+
+    .profile-options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .profile-options {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .profile-picture {
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+}
