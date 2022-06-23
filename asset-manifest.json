@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.462c4d69.css",
+    "main.js": "/Portfolio/static/js/main.4b27cd12.js",
+    "static/media/profilephoto.jpg": "/Portfolio/static/media/profilephoto.23aad4157ffc51d2c9c2.jpg",
+    "static/media/embreve.jpg": "/Portfolio/static/media/embreve.6172248ade132276b029.jpg",
+    "static/media/Poppins-Thin.ttf": "/Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/Portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/Portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/Portfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/Portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/Portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/Portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/ProjetoFlamengo.jpeg": "/Portfolio/static/media/ProjetoFlamengo.e11a26ada622d1c57ff3.jpeg",
+    "static/media/ProjetoPsicologia.jpeg": "/Portfolio/static/media/ProjetoPsicologia.e06d020162e64a768b72.jpeg",
+    "static/media/ProjetoAcai.jpeg": "/Portfolio/static/media/ProjetoAcai.813c2db605cc6e691f0c.jpeg",
+    "static/media/about-1.svg": "/Portfolio/static/media/about-1.39e521ef997cce1a61b4bee518b0be41.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.462c4d69.css.map": "/Portfolio/static/css/main.462c4d69.css.map",
+    "main.4b27cd12.js.map": "/Portfolio/static/js/main.4b27cd12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.462c4d69.css",
+    "static/js/main.4b27cd12.js"
+  ]
+}
