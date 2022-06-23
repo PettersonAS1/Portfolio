@@ -42,6 +42,7 @@
     border: none;
     transition: 0.8s;
     background-color: #22c8e5;
+    color: white;
 }
 
 .profile-options .primary-btn:hover { 
@@ -56,15 +57,13 @@
     transition: 0.8s;
     text-decoration: none;
     outline: none;
-    background: linear-gradient(90deg, #ff8f1e 0%, #ff8f1e 50%, #fe690b 100%);;
+    background: linear-gradient(90deg, #ff8f1e 0%, #ff8f1e 50%, #fe690b 100%);
 }
 
 .profile-options .highlighted-btn a {
     color: white;
     text-decoration: none;
 }
-
-
 
 .profile-options .highlighted-btn:hover {
     color: #111;
@@ -89,7 +88,6 @@
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;
-    background-position: center;
     transition: 1s;
 }
 
@@ -98,14 +96,14 @@
     transition: 1s ease-out;
 }
 
+
 .profile-networks .networks-icon i {
-    color: white;
-    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding: 8px 20px;
     padding-left: 0px;
     transition: 0.5s;
 }
-
-.networks-icon
 
 .profile-networks .networks-icon i:hover {
     transform: scale(1.4);

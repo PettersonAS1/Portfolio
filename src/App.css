@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-:root{
-  --background: #3a3a3a;
-  --light-blue : #04C3FF;
-  --light-blue-shadow:  rgb(69 211 255 / 27%);
+:root {
+  --background: rgb(32, 34, 53);
+  --light-blue: #04C3FF;
+  --light-blue-shadow: rgb(69 211 255 / 27%);
   --sea-green: #0ABEAD;
   --sea-green-dark: #0CBFAE;
   --sea-green-extra-dark: #09BEAD;
@@ -16,9 +16,9 @@
   --white: #ffffff;
   --black: #333333;
   --disabled-btn: #09bead7a;
-  --error-message:  #e44f4fd1;
+  --error-message: #e44f4fd1;
   --toast-error: #e44f4ffa;
-  --toast-shadow:  #9c9c9ce3;
+  --toast-shadow: #9c9c9ce3;
   --toast-success: #0CBFAE;
   --loader-color: #0CBFAE
 }

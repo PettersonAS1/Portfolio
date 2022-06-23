@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import Shape from '../../assets/Home/shape-bg.png'
 
 function Home() {
     return (
@@ -15,7 +16,7 @@ function Home() {
                                 <i className='fa fa-google-plus-square'></i>
                             </a>
                             <a href="#">
-                                <i className='fa fa-instagram'></i>
+                                <i className='fa fa-github-square'></i>
                             </a>
                             <a href="#">
                                 <i className='fa fa-whatsapp'></i>
@@ -33,7 +34,7 @@ function Home() {
                     </div>
                     <div className='profile-info'>
                         <span className='profile-tag'>
-                            Desenvolvedor Front-End Júnior. HTML | CSS | JavaScript | ReactJS | Vue.JS
+                            Desenvolvedor Front-End Júnior | HTML | CSS | JavaScript | ReactJS | Vue.JS
                         </span>
                     </div>
                     <div className='profile-options'>
