@@ -37,10 +37,13 @@ function Home() {
                         </span>
                     </div>
                     <div className='profile-options'>
-                        <button className='btn mb-2 primary-btn'>
-                            {" "}
-                        LinkedIn    {" "}
-                        </button>
+                        <a href="https://www.linkedin.com/in/petter-andre/"
+                        target="_blank">
+                            <button className='btn mb-2 primary-btn'>
+                                {" "}
+                                LinkedIn    {" "}
+                            </button>
+                        </a>
                         <button className='btn mb-2 highlighted-btn'><a href="#" download='CV-PettersonAndré.pdf'>Curriculo</a></button>
                     </div>
                 </div>

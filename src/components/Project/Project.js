@@ -9,79 +9,49 @@ function Project() {
     return (
         <div className='project-container'>
             <div className='project-parent'>
-                <div className="row project-row">
+                <div className='row'>
                     <div className="col-md-12">
-                        <h1 className="main-title">Meus Projetos</h1>
+                        <h1 className='project-title'>Meus Projetos</h1>
                     </div>
-                    <div className="col-md-12" id="filter-btn-box">
-                        <button className="btn mb-2 project-btn active" id="all-btn">Todos</button>
-                        <button className="btn mb-2 project-btn" id="carioca-btn">ReactJS</button>
-                        <button className="btn mb-2 project-btn" id="liberta-btn">Vue.JS</button>
-                        <button className="btn mb-2 project-btn" id="brasileiro-btn">PHP</button>
-                    </div>
-
-                    <div className="col-md-4 project-box html css js">
-                        {/* <img src={ProjetoAcai} className="img-fluid" /> */}
-                        <div style={{ backgroundImage: `url(${ProjetoAcai})` }} className='fundo'>
-                            <div className='project-card-details'>
-                                <p>Landing Page com Tematica  de Açaí.</p>
-                                <button className='btn mt-2 project-btn'>Acessar</button>
-                                <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
-                            </div>
-                        </div>
-                        <div className='project-icons'>
+                    <div className="project-card col-md-4">
+                        <img src={ProjetoAcai} className="img-fluid" />
+                        <div className='project-icon'>
                             <ion-icon name="logo-html5"></ion-icon>
                             <ion-icon name="logo-css3"></ion-icon>
                             <ion-icon name="logo-javascript"></ion-icon>
                         </div>
                         <div className='project-buttons'>
-                            <button className='btn mt-2 project-btn'>Acessar</button>
-                            <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
+                            <button className='btn project-btn'>Acessar</button>
+                            <button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
                         </div>
                     </div>
-
-                    <div className="col-md-4 project-box html css js">
-                        {/* <img src={ProjetoAcai} className="img-fluid" /> */}
-                        <div style={{ backgroundImage: `url(${ProjetoFlamengo})` }} className='fundo'>
-                            <div className='project-card-details'>
-                                <p>Landing Page com Tematica  de Açaí.</p>
-                                <button className='btn mt-2 project-btn'>Acessar</button>
-                                <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
-                            </div>
-                        </div>
-                        <div className='project-icons'>
+                    <div className="project-card col-md-4">
+                        <img src={ProjetoFlamengo} className="img-fluid" />
+                        <div className='project-icon'>
                             <ion-icon name="logo-html5"></ion-icon>
                             <ion-icon name="logo-css3"></ion-icon>
                             <ion-icon name="logo-javascript"></ion-icon>
                         </div>
                         <div className='project-buttons'>
-                            <button className='btn mt-2 project-btn'>Acessar</button>
-                            <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
+                            <button className='btn project-btn'>Acessar</button>
+                            <button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
                         </div>
                     </div>
-
-                    <div className="col-md-4 project-box html css js">
-                        {/* <img src={ProjetoAcai} className="img-fluid" /> */}
-                        <div style={{ backgroundImage: `url(${ProjetoPsicologia})` }} className='fundo'>
-                            <div className='project-card-details'>
-                                <p>Landing Page com Tematica  de Açaí.</p>
-                                <button className='btn mt-2 project-btn'>Acessar</button>
-                                <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
-                            </div>
-                        </div>
-                        <div className='project-icons'>
+                    <div className="project-card col-md-4">
+                        <img src={ProjetoPsicologia} className="img-fluid" />
+                        <div className='project-icon'>
                             <ion-icon name="logo-html5"></ion-icon>
                             <ion-icon name="logo-css3"></ion-icon>
                             <ion-icon name="logo-javascript"></ion-icon>
                         </div>
                         <div className='project-buttons'>
-                            <button className='btn mt-2 project-btn'>Acessar</button>
-                            <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
+                            <button className='btn project-btn'>Acessar</button>
+                            <button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div >
+        </div>
     )
 }
 

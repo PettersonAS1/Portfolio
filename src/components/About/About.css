@@ -29,7 +29,7 @@
 }
 
 .about-box {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,6 +89,12 @@
     gap: 10px;
 }
 
+.about-buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+
 /* .about-buttons button {
     margin: 10px;
 } */
@@ -101,8 +107,6 @@
 }
 
 .about-buttons .primary-btn:hover {
-    background-color: rgb(255, 255, 255);
-    color: #111;
     letter-spacing: 1px;
 }
 
@@ -115,8 +119,7 @@
     background: linear-gradient(90deg, #0fb641 0%, #1aaf53 50%, #0ac032 100%);
 }
 
-.about-button .sucess-btn:hover {
-    color: #111;
+.about-buttons .sucess-btn:hover {
     letter-spacing: 1px;
 }
 
@@ -127,16 +130,6 @@
 }
 
 @media screen and (max-width: 650px) {
-    .about-buttons {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-}
-
-
-@media screen and (max-width: 500px) {
     .about-image {
         display: none;
     }
@@ -145,13 +138,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 95%;
     }
 
-    .about-details .about-buttons {
+    .about-buttons {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        gap: 0;
+        width: auto;
+    }
+
+    .about-buttons button {
+        width: 230px
     }
 
 }

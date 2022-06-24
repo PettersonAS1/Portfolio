@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.App {
+  overflow-x: hidden;
+}
+
 :root {
   --background: rgb(32, 34, 53);
   --light-blue: #04C3FF;

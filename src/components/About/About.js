@@ -16,7 +16,7 @@ function About() {
           </div>
           <div className='about-details'>
             <p className='font-weight-bold'>Brasilia, DF</p>
-            <p>Olá, meu nome é Petterson André, me formei em Analise e Desevolvimento de Sistemas em Dezembro de 2021, e desde então venho me dedicando nos estudos para ser um desenvolvedor FullStack. Tendo em mente que estamos sempre em constante aprendizado, venho aprimemorando meus conhecimentos Técnicos e Pessoais, estou sempre disposto a desafios. Venho me aperfeiçoando nas linguagens:</p>
+            <p>Olá, meu nome é Petterson André, me formei em Analise e Desevolvimento de Sistemas em Dezembro de 2021, e desde então venho me dedicando nos estudos para ser um desenvolvedor FullStack. Tendo em mente que estamos sempre em constante aprendizado, venho aprimorando meus conhecimentos Técnicos e Pessoais, estou sempre disposto a desafios. Venho me aperfeiçoando nas linguagens:</p>
             <div className='about-list'>
               <ul>
                 <li><img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="" /> HTML</li>
@@ -27,8 +27,16 @@ function About() {
               </ul>
             </div>
             <div className='about-buttons'>
-              <button className='btn mb-2 primary-btn'>LinkedIn</button>
-              <button className='btn mb-2 sucess-btn'>WhatsApp</button>
+              <button className='btn mb-2 primary-btn'>
+                <a href="https://www.linkedin.com/in/petter-andre/" target="_blank">
+                  LinkedIn
+                </a>
+              </button>
+              <button className='btn mb-2 sucess-btn'>
+                <a href="https://api.whatsapp.com/send?phone=5561992580891" target="_blank">
+                  WhatsApp
+                </a>
+              </button>
             </div>
           </div>
         </div>
