@@ -15,8 +15,8 @@ function About() {
             <img src={AboutImg} alt="" />
           </div>
           <div className='about-details'>
-            <h2>Sobre</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde odio provident facere magni cum molestias aut qui reprehenderit. Officiis harum corrupti porro dolor blanditiis molestias recusandae quidem ut? Eius, consequatur!</p>
+            <p className='font-weight-bold'>Brasilia, DF</p>
+            <p>Olá, meu nome é Petterson André, me formei em Analise e Desevolvimento de Sistemas em Dezembro de 2021, e desde então venho me dedicando nos estudos para ser um desenvolvedor FullStack. Tendo em mente que estamos sempre em constante aprendizado, venho aprimemorando meus conhecimentos Técnicos e Pessoais, estou sempre disposto a desafios. Venho me aperfeiçoando nas linguagens:</p>
             <div className='about-list'>
               <ul>
                 <li><img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="" /> HTML</li>

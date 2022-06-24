@@ -41,7 +41,7 @@ function Home() {
                             {" "}
                         LinkedIn    {" "}
                         </button>
-                        <button className='btn mb-2 highlighted-btn'><a href="#" download='CV-PettersonAndré.pdf'>Meu curriculo</a></button>
+                        <button className='btn mb-2 highlighted-btn'><a href="#" download='CV-PettersonAndré.pdf'>Curriculo</a></button>
                     </div>
                 </div>
                 <div className='profile-picture'>

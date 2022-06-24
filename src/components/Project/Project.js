@@ -19,8 +19,16 @@ function Project() {
                         <button className="btn mb-2 project-btn" id="liberta-btn">Vue.JS</button>
                         <button className="btn mb-2 project-btn" id="brasileiro-btn">PHP</button>
                     </div>
-                    <div className="col-md-4 project-box liberta">
-                        <img src={ProjetoAcai} className="img-fluid" alt="Jogo Historico 1" />
+
+                    <div className="col-md-4 project-box html css js">
+                        {/* <img src={ProjetoAcai} className="img-fluid" /> */}
+                        <div style={{ backgroundImage: `url(${ProjetoAcai})` }} className='fundo'>
+                            <div className='project-card-details'>
+                                <p>Landing Page com Tematica  de Açaí.</p>
+                                <button className='btn mt-2 project-btn'>Acessar</button>
+                                <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
+                            </div>
+                        </div>
                         <div className='project-icons'>
                             <ion-icon name="logo-html5"></ion-icon>
                             <ion-icon name="logo-css3"></ion-icon>
@@ -31,8 +39,16 @@ function Project() {
                             <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
                         </div>
                     </div>
-                    <div className="col-md-4 project-box brasileiro">
-                        <img src={ProjetoFlamengo} className="img-fluid" alt="Jogo Historico 2" />
+
+                    <div className="col-md-4 project-box html css js">
+                        {/* <img src={ProjetoAcai} className="img-fluid" /> */}
+                        <div style={{ backgroundImage: `url(${ProjetoFlamengo})` }} className='fundo'>
+                            <div className='project-card-details'>
+                                <p>Landing Page com Tematica  de Açaí.</p>
+                                <button className='btn mt-2 project-btn'>Acessar</button>
+                                <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
+                            </div>
+                        </div>
                         <div className='project-icons'>
                             <ion-icon name="logo-html5"></ion-icon>
                             <ion-icon name="logo-css3"></ion-icon>
@@ -43,51 +59,20 @@ function Project() {
                             <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
                         </div>
                     </div>
-                    <div className="col-md-4 project-box carioca">
-                        <img src={ProjetoPsicologia} className="img-fluid" alt="Jogo Historico 3" />
+
+                    <div className="col-md-4 project-box html css js">
+                        {/* <img src={ProjetoAcai} className="img-fluid" /> */}
+                        <div style={{ backgroundImage: `url(${ProjetoPsicologia})` }} className='fundo'>
+                            <div className='project-card-details'>
+                                <p>Landing Page com Tematica  de Açaí.</p>
+                                <button className='btn mt-2 project-btn'>Acessar</button>
+                                <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
+                            </div>
+                        </div>
                         <div className='project-icons'>
                             <ion-icon name="logo-html5"></ion-icon>
                             <ion-icon name="logo-css3"></ion-icon>
-                            <ion-icon name="logo-nodejs"></ion-icon>
-                        </div>
-                        <div className='project-buttons'>
-                            <button className='btn mt-2 project-btn'>Acessar</button>
-                            <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
-                        </div>
-                    </div>
-                    <div className="col-md-4 project-box liberta">
-                        <img src={ProjetoAcai} className="img-fluid" alt="Jogo Historico 4" />
-                        <div className='project-icons'>
-                            <ion-icon name="logo-html5"></ion-icon>
-                            <ion-icon name="logo-css3"></ion-icon>
-                            <ion-icon name="logo-nodejs"></ion-icon>
                             <ion-icon name="logo-javascript"></ion-icon>
-                            <ion-icon name="logo-react"></ion-icon>
-                        </div>
-                        <div className='project-buttons'>
-                            <button className='btn mt-2 project-btn'>Acessar</button>
-                            <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
-                        </div>
-                    </div>
-                    <div className="col-md-4 project-box brasileiro">
-                        <img src={ProjetoFlamengo} className="img-fluid" alt="Jogo Historico 5" />
-                        <div className='project-icons'>
-                            <ion-icon name="logo-html5"></ion-icon>
-                            <ion-icon name="logo-css3"></ion-icon>
-                            <ion-icon name="logo-python"></ion-icon>
-                            <ion-icon name="logo-nodejs"></ion-icon>
-                        </div>
-                        <div className='project-buttons'>
-                            <button className='btn mt-2 project-btn'>Acessar</button>
-                            <button className='btn mt-2 git-btn'> <ion-icon name="logo-github"></ion-icon> Github</button>
-                        </div>
-                    </div>
-                    <div className="col-md-4 project-box liberta">
-                        <img src={ProjetoPsicologia} className="img-fluid" alt="Jogo Historico 6" />
-                        <div className='project-icons'>
-                            <ion-icon name="logo-html5"></ion-icon>
-                            <ion-icon name="logo-css3"></ion-icon>
-                            <ion-icon name="logo-nodejs"></ion-icon>
                         </div>
                         <div className='project-buttons'>
                             <button className='btn mt-2 project-btn'>Acessar</button>
@@ -96,7 +81,7 @@ function Project() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

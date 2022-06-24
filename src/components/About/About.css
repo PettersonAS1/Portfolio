@@ -73,6 +73,11 @@
     align-items: center;
 }
 
+.about-details p {
+    width: 100%;
+}
+
+
 .about-image img {
     width: 90%;
 }
@@ -81,11 +86,12 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    gap: 10px;
 }
 
-.about-buttons button {
+/* .about-buttons button {
     margin: 10px;
-}
+} */
 
 .about-buttons .primary-btn {
     border: none;
@@ -118,6 +124,15 @@
     .about-container {
         margin-top: -50px;
     }
+}
+
+@media screen and (max-width: 650px) {
+    .about-buttons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
 }
 
 
