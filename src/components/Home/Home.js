@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.css'
-import Shape from '../../assets/Home/shape-bg.png'
 
 function Home() {
     return (

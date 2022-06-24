@@ -1,7 +1,6 @@
 import React from 'react'
 import './Project.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ImgProject1 from '../../assets/Home/embreve.jpg'
 import ProjetoAcai from '../../assets/Home/ProjetoAcai.jpeg'
 import ProjetoFlamengo from '../../assets/Home/ProjetoFlamengo.jpeg'
 import ProjetoPsicologia from '../../assets/Home/ProjetoPsicologia.jpeg'
