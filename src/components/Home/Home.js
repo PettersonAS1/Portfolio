@@ -8,13 +8,13 @@ function Home() {
                 <div className='profile-details'>
                     <div className='profile-networks'>
                         <div className='networks-icon'>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/petter-andre/" target="_blank">
                                 <i className='fa fa-linkedin-square'></i>
                             </a>
-                            <a href="#">
+                            <a href="https://github.com/PettersonAS1" target="_blank">
                                 <i className='fa fa-google-plus-square'></i>
                             </a>
-                            <a href="#">
+                            <a href="https://github.com/PettersonAS1" target="_blank">
                                 <i className='fa fa-github-square'></i>
                             </a>
                             <a href="#">
@@ -38,7 +38,7 @@ function Home() {
                     </div>
                     <div className='profile-options'>
                         <a href="https://www.linkedin.com/in/petter-andre/"
-                        target="_blank">
+                            target="_blank">
                             <button className='btn mb-2 primary-btn'>
                                 {" "}
                                 LinkedIn    {" "}
