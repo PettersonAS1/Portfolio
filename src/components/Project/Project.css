@@ -45,4 +45,10 @@
     vertical-align: middle;
     margin-bottom: 30px;
 }
- 
+
+.project-buttons a{
+    outline: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
