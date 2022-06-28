@@ -37,8 +37,11 @@ function Project() {
                             <ion-icon name="logo-javascript"></ion-icon>
                         </div>
                         <div className='project-buttons'>
-                            <button className='btn project-btn'>Acessar</button>
-                            <button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
+                            <a href="https://pettersonas1.github.io/LandingPage_Flamengo/">
+                                <button className='btn project-btn'>Acessar</button>
+                            </a>
+                            <a href="https://github.com/PettersonAS1/LandingPage_Flamengo" target="_blank"><button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
+                            </a>
                         </div>
                     </div>
                     <div className="project-card col-md-4">

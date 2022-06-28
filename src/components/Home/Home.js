@@ -25,7 +25,6 @@ function Home() {
                     </div>
                     <div className='profile-details-name'>
                         <span className='primary-text'>
-                            {" "}
                             Olá, eu sou o <span className='special-text'>
                                 Petterson
                             </span>
@@ -40,11 +39,10 @@ function Home() {
                         <a href="https://www.linkedin.com/in/petter-andre/"
                             target="_blank">
                             <button className='btn mb-2 primary-btn'>
-                                {" "}
-                                LinkedIn    {" "}
+                                LinkedIn
                             </button>
                         </a>
-                        <button className='btn mb-2 highlighted-btn'><a href="#" download='CV-PettersonAndré.pdf'>Curriculo</a></button>
+                        <button className='btn mb-2 highlighted-btn'><a href="curriculo.pdf" download='CV_PettersonAndré.pdf'>Curriculo</a></button>
                     </div>
                 </div>
                 <div className='profile-picture'>
