@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0125d01a.css",
-    "main.js": "/Portfolio/static/js/main.9456917d.js",
+    "main.css": "/Portfolio/static/css/main.b9b5ed4f.css",
+    "main.js": "/Portfolio/static/js/main.39dfe815.js",
     "static/media/profilephoto.jpg": "/Portfolio/static/media/profilephoto.23aad4157ffc51d2c9c2.jpg",
     "static/media/Poppins-Thin.ttf": "/Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-Light.ttf": "/Portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
@@ -13,13 +13,13 @@
     "static/media/ProjetoFlamengo.jpeg": "/Portfolio/static/media/ProjetoFlamengo.e11a26ada622d1c57ff3.jpeg",
     "static/media/ProjetoPsicologia.jpeg": "/Portfolio/static/media/ProjetoPsicologia.e06d020162e64a768b72.jpeg",
     "static/media/ProjetoAcai.jpeg": "/Portfolio/static/media/ProjetoAcai.813c2db605cc6e691f0c.jpeg",
-    "static/media/about-1.svg": "/Portfolio/static/media/about-1.39e521ef997cce1a61b4bee518b0be41.svg",
+    "static/media/about-1.svg": "/Portfolio/static/media/about-1.55c831ae3987817b5685dcf99e694a29.svg",
     "index.html": "/Portfolio/index.html",
-    "main.0125d01a.css.map": "/Portfolio/static/css/main.0125d01a.css.map",
-    "main.9456917d.js.map": "/Portfolio/static/js/main.9456917d.js.map"
+    "main.b9b5ed4f.css.map": "/Portfolio/static/css/main.b9b5ed4f.css.map",
+    "main.39dfe815.js.map": "/Portfolio/static/js/main.39dfe815.js.map"
   },
   "entrypoints": [
-    "static/css/main.0125d01a.css",
-    "static/js/main.9456917d.js"
+    "static/css/main.b9b5ed4f.css",
+    "static/js/main.39dfe815.js"
   ]
 }
