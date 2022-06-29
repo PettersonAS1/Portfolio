@@ -13,49 +13,56 @@ function Project() {
                     <div className="col-md-12">
                         <h1 className='project-title'>Meus Projetos</h1>
                     </div>
-                    <div className="project-card col-md-4">
-                        <img src={ProjetoAcai} className="img-fluid" />
-                        <div className='project-icon'>
-                            <ion-icon name="logo-html5"></ion-icon>
-                            <ion-icon name="logo-css3"></ion-icon>
-                            <ion-icon name="logo-javascript"></ion-icon>
-                        </div>
-                        <div className='project-buttons'>
-                            <a href="https://pettersonas1.github.io/LandingPage_Acai/">
-                                <button className='btn project-btn'>Acessar</button>
-                            </a>
-                            <a href="https://github.com/PettersonAS1/LandingPage_Acai" target="_blank">
-                                <button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="project-card col-md-4">
-                        <img src={ProjetoFlamengo} className="img-fluid" />
-                        <div className='project-icon'>
-                            <ion-icon name="logo-html5"></ion-icon>
-                            <ion-icon name="logo-css3"></ion-icon>
-                            <ion-icon name="logo-javascript"></ion-icon>
-                        </div>
-                        <div className='project-buttons'>
-                            <a href="https://pettersonas1.github.io/LandingPage_Flamengo/">
-                                <button className='btn project-btn'>Acessar</button>
-                            </a>
-                            <a href="https://github.com/PettersonAS1/LandingPage_Flamengo" target="_blank"><button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
+                    <div class="col-md-4 mb-4">
+                        <div class="content">
+                            <a>
+                                <div class="content-overlay"></div> <img class="content-image" src={ProjetoAcai} />
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">Projeto desenvolvido utilizando HTML, CSS e JavaScript. Além de algumas bibliotecas de animações como tilt.js.</h3>
+                                    <a href="https://pettersonas1.github.io/LandingPage_Acai/">
+                                        <button className='btn project-btn'>Acessar</button>
+                                    </a>
+                                    <a href="https://github.com/PettersonAS1/LandingPage_Acai" target="_blank">
+                                        <button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
+                                    </a>
+                                </div>
                             </a>
                         </div>
                     </div>
-                    <div className="project-card col-md-4">
-                        <img src={ProjetoPsicologia} className="img-fluid" />
-                        <div className='project-icon'>
-                            <ion-icon name="logo-html5"></ion-icon>
-                            <ion-icon name="logo-css3"></ion-icon>
-                            <ion-icon name="logo-javascript"></ion-icon>
-                        </div>
-                        <div className='project-buttons'>
-                            <button className='btn project-btn'>Acessar</button>
-                            <button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="content">
+                            <a>
+                                <div class="content-overlay"></div> <img class="content-image" src={ProjetoFlamengo} />
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">Projeto focado nas funcionalidades e animações do Bootstrap.</h3>
+                                    <a href="https://pettersonas1.github.io/LandingPage_Flamengo/">
+                                        <button className='btn project-btn'>Acessar</button>
+                                    </a>
+                                    <a href="https://github.com/PettersonAS1/LandingPage_Flamengo" target="_blank"><button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
+                                    </a>
+                                </div>
+                            </a>
                         </div>
                     </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="content">
+                            <a>
+                                <div class="content-overlay"></div> <img class="content-image" src={ProjetoPsicologia} />
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">Projeto desenvolvido em ReactJs, consumindo as API EmailJS e ViaCEP</h3>
+                                    <a href="https://pettersonas1.github.io/LandingPage_Flamengo/">
+                                        <button className='btn project-btn'>Acessar</button>
+                                    </a>
+                                    <a href="https://github.com/PettersonAS1/LandingPage_Flamengo" target="_blank"><button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
