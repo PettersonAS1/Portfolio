@@ -52,10 +52,10 @@ function Project() {
                                 <div class="content-overlay"></div> <img class="content-image" src={ProjetoPsicologia} />
                                 <div class="content-details fadeIn-bottom">
                                     <h3 class="content-title">Projeto desenvolvido em ReactJs, consumindo as API EmailJS e ViaCEP</h3>
-                                    <a href="https://pettersonas1.github.io/LandingPage_Flamengo/">
+                                    <a href="https://github.com/PettersonAS1/ProjetoPsicologia">
                                         <button className='btn project-btn'>Acessar</button>
                                     </a>
-                                    <a href="https://github.com/PettersonAS1/LandingPage_Flamengo" target="_blank"><button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
+                                    <a href="https://github.com/PettersonAS1/ProjetoPsicologia" target="_blank"><button className='btn project-btn'><ion-icon name="logo-github"></ion-icon> GitHub</button>
                                     </a>
                                 </div>
                             </a>
